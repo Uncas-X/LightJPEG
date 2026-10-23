@@ -44,7 +44,7 @@ Przetwarzany jest tylko pierwszy obraz lub kadr. Live Photo, animacje, pomocnicz
 
 ## Języki i skróty
 
-Przy pierwszym uruchomieniu aplikacja korzysta z preferencji językowych macOS. Język można zmienić w prawym górnym rogu; wybór jest zapamiętywany. Dostępnych jest 16 języków:
+Przy pierwszym uruchomieniu aplikacja korzysta z preferencji językowych macOS. Język można zmienić w prawym górnym rogu; wybór jest zapamiętywany. Dostępne języki:
 
 简体中文 · English · 繁體中文 · 日本語 · 한국어 · Français · Deutsch · Español · Italiano · Português (Brasil) · Русский · العربية · हिन्दी · Türkçe · Nederlands · Polski
 
@@ -107,8 +107,6 @@ Raport weryfikacji dokumentuje udane testy orientacji, skalowania, białego tła
 
 Aplikacja ma lokalny podpis ad-hoc, nie podpis Apple Developer ID, i nie została notaryzowana przez Apple. macOS może poprosić o zgodę na otwarcie.
 
-Przykładowy pomiar: [zdjęcie demonstracyjne Picdiet](https://www.picdiet.com/img/photographer.jpg), 984 065 bajtów i 1920 × 1280 pikseli, przy jakości 75 zajęło około 155 KB — około 84% mniej. To wynik jednej próbki, nie gwarantowany współczynnik. Zdjęcie nie jest dołączone do aplikacji.
-
 ## Historia zmian
 
 - **1.1.1:** usunięto przycisk eksportu z podglądu; opcjonalny zapis kopii pozostaje w menu, menu kontekstowym i pod `⌘S`. Nazwa aplikacji to `LightJPEG.app`, bez numeru wersji.
@@ -128,4 +126,4 @@ Pochodzenie opisano w [THIRD-PARTY-NOTICES.txt](../../Resources/Licenses/THIRD-P
 
 > This software is based in part on the work of the Independent JPEG Group.
 
-LightJPEG powstał niezależnie z użyciem otwartego MozJPEG; nie skopiowano interfejsu ani spakowanych skryptów witryny Picdiet.
+LightJPEG powstał niezależnie z użyciem otwartego MozJPEG.

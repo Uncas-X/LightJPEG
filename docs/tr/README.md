@@ -44,7 +44,7 @@ Yalnızca ilk görüntü karesi işlenir; Live Photo, animasyon, yardımcı HDR 
 
 ## Diller ve kısayollar
 
-İlk açılışta macOS dil tercihleri izlenir. Sağ üstteki seçimle dili değiştirebilirsiniz; tercihiniz hatırlanır. 16 dil vardır:
+İlk açılışta macOS dil tercihleri izlenir. Sağ üstteki seçimle dili değiştirebilirsiniz; tercihiniz hatırlanır. Kullanılabilir diller:
 
 简体中文 · English · 繁體中文 · 日本語 · 한국어 · Français · Deutsch · Español · Italiano · Português (Brasil) · Русский · العربية · हिन्दी · Türkçe · Nederlands · Polski
 
@@ -107,8 +107,6 @@ Test ortamı Intel iMac, macOS 15.7.9, Xcode 26.3 / Swift 6.2.4'tür. Gerçek do
 
 Uygulama yerel ad-hoc imzalıdır; Apple Developer ID ile imzalanmamış ve Apple noter onayına gönderilmemiştir. macOS açmak için izin isteyebilir.
 
-Tek örnek ölçüm: [Picdiet tanıtım fotoğrafı](https://www.picdiet.com/img/photographer.jpg), 984.065 bayt ve 1920 × 1280 boyutlarındayken kalite 75 ile yaklaşık 155 KB olmuştur; yaklaşık %84 küçülmüştür. Bu bir örnektir, garanti edilen oran değildir. Fotoğraf uygulamaya dahil değildir.
-
 ## Değişiklikler
 
 - **1.1.1:** önizleme dışa aktarma düğmesi kaldırıldı; isteğe bağlı kopya kaydetme menüde, bağlam menüsünde ve `⌘S` kısayolunda kaldı. Uygulama adı sürüm numarası olmadan `LightJPEG.app` oldu.
@@ -128,4 +126,4 @@ Kaynak kaydı: [THIRD-PARTY-NOTICES.txt](../../Resources/Licenses/THIRD-PARTY-NO
 
 > This software is based in part on the work of the Independent JPEG Group.
 
-LightJPEG, açık kaynak MozJPEG kullanılarak bağımsız geliştirilmiştir; Picdiet'in arayüzü veya paketlenmiş site betikleri kopyalanmamıştır.
+LightJPEG, açık kaynak MozJPEG kullanılarak bağımsız geliştirilmiştir.

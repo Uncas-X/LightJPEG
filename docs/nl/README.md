@@ -44,7 +44,7 @@ Alleen het eerste beeld wordt verwerkt; Live Photo, animatie, aanvullende HDR-be
 
 ## Talen en sneltoetsen
 
-Bij de eerste start volgt de app de taalvoorkeuren van macOS. Rechtsboven kun je een andere taal kiezen; deze keuze wordt onthouden. Er zijn 16 talen:
+Bij de eerste start volgt de app de taalvoorkeuren van macOS. Rechtsboven kun je een andere taal kiezen; deze keuze wordt onthouden. Beschikbare talen:
 
 简体中文 · English · 繁體中文 · 日本語 · 한국어 · Français · Deutsch · Español · Italiano · Português (Brasil) · Русский · العربية · हिन्दी · Türkçe · Nederlands · Polski
 
@@ -107,8 +107,6 @@ Testomgeving: Intel iMac, macOS 15.7.9, Xcode 26.3 / Swift 6.2.4. **Alleen de In
 
 De app heeft een lokale ad-hoc-handtekening, geen Apple Developer ID-handtekening, en is niet door Apple genotariseerd. macOS kan om toestemming vragen om de app te openen.
 
-Eén meting: de [Picdiet-demonstratiefoto](https://www.picdiet.com/img/photographer.jpg) van 984.065 bytes en 1920 × 1280 pixels werd met kwaliteit 75 ongeveer 155 KB, zo'n 84% kleiner. Dit is één voorbeeld, geen gegarandeerde verhouding; de foto wordt niet meegeleverd.
-
 ## Wijzigingen
 
 - **1.1.1:** exportknop uit de voorvertoning verwijderd. Een extra kopie opslaan blijft mogelijk via menu, contextmenu en `⌘S`. De app heet `LightJPEG.app`, zonder versienummer in de bestandsnaam.
@@ -128,4 +126,4 @@ Zie [THIRD-PARTY-NOTICES.txt](../../Resources/Licenses/THIRD-PARTY-NOTICES.txt) 
 
 > This software is based in part on the work of the Independent JPEG Group.
 
-LightJPEG is onafhankelijk gebouwd met de opensource-encoder MozJPEG; de interface en gebundelde scripts van Picdiet zijn niet gekopieerd.
+LightJPEG is onafhankelijk gebouwd met de opensource-encoder MozJPEG.

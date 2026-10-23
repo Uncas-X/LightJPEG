@@ -4,7 +4,7 @@
 
 LightJPEG 是原生 macOS 离线图片压缩工具，内置 MozJPEG 4.1.5，图片无需上传。应用文件名为 `LightJPEG.app`，运行时无需安装其他依赖。支持 macOS 13 及以上，Universal 程序同时包含 Intel 和 Apple Silicon 架构。已在 Intel Mac、macOS 15.7.9 上实机验证；arm64 目前仅完成交叉编译，尚未实机验证。分发包采用 ad hoc 签名，尚未通过 Apple 公证。
 
-界面与说明文档支持 16 种语言：简体中文、English、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Português (Brasil)、Русский、العربية、हिन्दी、Türkçe、Nederlands、Polski。界面默认跟随系统，也可手动切换并记住选择；阿拉伯语采用从右到左布局。
+界面与说明文档提供以下语言：简体中文、English、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Português (Brasil)、Русский、العربية、हिन्दी、Türkçe、Nederlands、Polski。界面默认跟随系统，也可手动切换并记住选择；阿拉伯语采用从右到左布局。
 
 ## 开始使用
 
@@ -66,4 +66,4 @@ LIGHTJPEG_HEIC_FIXTURE=/path/to/sample.heic bash test.sh
 - **1.1.1**：移除预览标题栏的导出按钮；应用名称不再带版本号。
 - **1.1.0**：加入逐张自动保存、1:1 像素对比、包含 GPS 的单一 EXIF 开关，以及所选图片的独立统计。
 
-LightJPEG 原创代码采用 MIT 许可证。第三方许可证及法律声明原文保留在 [`Resources/Licenses`](../../Resources/Licenses/)。本项目独立使用 MozJPEG 实现压缩，不包含 Picdiet 网站代码。编码器官方源码：[Mozilla MozJPEG v4.1.5](https://github.com/mozilla/mozjpeg/tree/v4.1.5)。
+LightJPEG 原创代码采用 MIT 许可证。第三方许可证及法律声明原文保留在 [`Resources/Licenses`](../../Resources/Licenses/)。本项目独立使用 MozJPEG 实现压缩。编码器官方源码：[Mozilla MozJPEG v4.1.5](https://github.com/mozilla/mozjpeg/tree/v4.1.5)。

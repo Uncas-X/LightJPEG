@@ -4,7 +4,7 @@
 
 LightJPEG は MozJPEG 4.1.5 を内蔵した、macOS ネイティブのオフライン画像圧縮アプリです。画像をアップロードする必要はありません。ファイル名は `LightJPEG.app` で、実行時に追加の依存ソフトウェアは不要です。macOS 13 以降に対応し、Universal バイナリに Intel と Apple Silicon の両アーキテクチャを含みます。Intel Mac の macOS 15.7.9 で実機検証済みです。arm64 はクロスコンパイルのみ完了しており、実機では未検証です。配布版は ad hoc 署名で、Apple の公証は受けていません。
 
-画面と説明文書は 16 言語に対応します：简体中文、English、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Português (Brasil)、Русский、العربية、हिन्दी、Türkçe、Nederlands、Polski。画面の言語は初期状態でシステム設定に従い、手動で選んだ言語も記憶します。アラビア語は右から左のレイアウトになります。
+画面と説明文書は次の言語で利用できます：简体中文、English、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Português (Brasil)、Русский、العربية、हिन्दी、Türkçe、Nederlands、Polski。画面の言語は初期状態でシステム設定に従い、手動で選んだ言語も記憶します。アラビア語は右から左のレイアウトになります。
 
 ## 使い方
 
@@ -66,4 +66,4 @@ LIGHTJPEG_HEIC_FIXTURE=/path/to/sample.heic bash test.sh
 - **1.1.1**：プレビュー見出しの書き出しボタンを削除。アプリ名からバージョン番号を削除。
 - **1.1.0**：画像ごとの自動保存、1:1 ピクセル比較、GPS を含む単一の EXIF スイッチ、選択画像ごとの容量表示を追加。
 
-LightJPEG 独自のコードは MIT ライセンスです。第三者のライセンスと法的表示の原文は [`Resources/Licenses`](../../Resources/Licenses/) に収録しています。本アプリは MozJPEG を使った独立した実装で、Picdiet のサイトのコードは使用していません。エンコーダの公式ソース：[Mozilla MozJPEG v4.1.5](https://github.com/mozilla/mozjpeg/tree/v4.1.5)。
+LightJPEG 独自のコードは MIT ライセンスです。第三者のライセンスと法的表示の原文は [`Resources/Licenses`](../../Resources/Licenses/) に収録しています。本アプリは MozJPEG を使った独立した実装です。エンコーダの公式ソース：[Mozilla MozJPEG v4.1.5](https://github.com/mozilla/mozjpeg/tree/v4.1.5)。

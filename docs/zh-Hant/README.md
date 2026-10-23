@@ -4,7 +4,7 @@
 
 LightJPEG 是原生 macOS 離線圖片壓縮工具，內建 MozJPEG 4.1.5，圖片無須上傳。應用程式檔名為 `LightJPEG.app`，執行時不需安裝其他相依套件。支援 macOS 13 以上版本，Universal 程式同時包含 Intel 與 Apple Silicon 架構。已在 Intel Mac、macOS 15.7.9 上實機驗證；arm64 目前僅完成交叉編譯，尚未實機驗證。發行版本採用 ad hoc 簽署，尚未通過 Apple 公證。
 
-介面與說明文件支援 16 種語言：简体中文、English、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Português (Brasil)、Русский、العربية、हिन्दी、Türkçe、Nederlands、Polski。介面預設跟隨系統，也可手動切換並記住選擇；阿拉伯語採用由右至左的版面配置。
+介面與說明文件提供以下語言：简体中文、English、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Português (Brasil)、Русский、العربية、हिन्दी、Türkçe、Nederlands、Polski。介面預設跟隨系統，也可手動切換並記住選擇；阿拉伯語採用由右至左的版面配置。
 
 ## 開始使用
 
@@ -66,4 +66,4 @@ LIGHTJPEG_HEIC_FIXTURE=/path/to/sample.heic bash test.sh
 - **1.1.1**：移除預覽標題列的輸出按鈕；應用程式名稱不再帶版本號。
 - **1.1.0**：加入逐張自動儲存、1:1 像素比較、包含 GPS 的單一 EXIF 開關，以及選取圖片的獨立統計。
 
-LightJPEG 原創程式碼採用 MIT 授權。第三方授權及法律聲明原文保留在 [`Resources/Licenses`](../../Resources/Licenses/)。本專案獨立使用 MozJPEG 實作壓縮，不包含 Picdiet 網站程式碼。編碼器官方原始碼：[Mozilla MozJPEG v4.1.5](https://github.com/mozilla/mozjpeg/tree/v4.1.5)。
+LightJPEG 原創程式碼採用 MIT 授權。第三方授權及法律聲明原文保留在 [`Resources/Licenses`](../../Resources/Licenses/)。本專案獨立使用 MozJPEG 實作壓縮。編碼器官方原始碼：[Mozilla MozJPEG v4.1.5](https://github.com/mozilla/mozjpeg/tree/v4.1.5)。

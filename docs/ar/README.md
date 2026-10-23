@@ -44,7 +44,7 @@ LightJPEG تطبيق أصلي لضغط الصور على macOS 13 أو أحدث.
 
 ## اللغات واختصارات لوحة المفاتيح
 
-يتبع التطبيق تفضيلات لغة macOS عند التشغيل الأول. يمكنك تغيير اللغة من أعلى النافذة، ويُحفظ اختيارك. تتوفر 16 لغة:
+يتبع التطبيق تفضيلات لغة macOS عند التشغيل الأول. يمكنك تغيير اللغة من أعلى النافذة، ويُحفظ اختيارك. تتوفر اللغات التالية:
 
 简体中文 · English · 繁體中文 · 日本語 · 한국어 · Français · Deutsch · Español · Italiano · Português (Brasil) · Русский · العربية · हिन्दी · Türkçe · Nederlands · Polski
 
@@ -107,8 +107,6 @@ LIGHTJPEG_SKIP_UI_TESTS=1 LIGHTJPEG_HEIC_FIXTURE="/absolute/path/example.heic" b
 
 التوقيع محلي من نوع ad-hoc، وليس Apple Developer ID، ولم يخضع التطبيق لتوثيق Apple عبر خدمة notarization. قد يطلب macOS الإذن بفتحه.
 
-مثال واحد: انخفض حجم [صورة Picdiet التجريبية](https://www.picdiet.com/img/photographer.jpg)، ذات 984,065 بايت وأبعاد 1920 × 1280، إلى نحو 155 KB عند الجودة 75، أي أقل بنحو 84%. هذه نتيجة عينة واحدة وليست نسبة مضمونة، والصورة غير مرفقة بالتطبيق.
-
 ## سجل التغييرات
 
 - **1.1.1:** إزالة زر التصدير من المعاينة، مع بقاء حفظ نسخة اختياريًا عبر القائمة والقائمة السياقية و`⌘S`. اسم التطبيق `LightJPEG.app` دون رقم إصدار.
@@ -128,4 +126,4 @@ LIGHTJPEG_SKIP_UI_TESTS=1 LIGHTJPEG_HEIC_FIXTURE="/absolute/path/example.heic" b
 
 > This software is based in part on the work of the Independent JPEG Group.
 
-بُني LightJPEG بصورة مستقلة باستخدام MozJPEG المفتوح المصدر، دون نسخ واجهة موقع Picdiet أو سكربتاته المجمّعة.
+بُني LightJPEG بصورة مستقلة باستخدام MozJPEG المفتوح المصدر.

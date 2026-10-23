@@ -120,8 +120,6 @@ Recorded tests passed for all eight EXIF orientations, resizing without enlargem
 
 Runtime layouts in the 1.1 series were reviewed in Chinese, German and Arabic, including a 940-point-wide window, Fit and 1:1 modes, and per-image statistics. Earlier 1.0 checks also covered English and Hindi. This does not claim visual or hardware testing of every language and Mac configuration.
 
-One public demonstration image, `photographer.jpg` from Picdiet, decreased from 984,065 bytes at 1920 × 1280 to approximately 155 KB at quality 75, about 84% smaller. This is a single measurement, not a guaranteed reduction; the photo is not bundled.
-
 ## Changes
 
 **1.1.1:** removes the preview's separate export button, keeps optional menu/context-menu saving, and uses the stable application filename `LightJPEG.app`.
@@ -140,4 +138,4 @@ The bundled encoder uses unmodified [Mozilla MozJPEG v4.1.5](https://github.com/
 
 > This software is based in part on the work of the Independent JPEG Group.
 
-LightJPEG is an independent MozJPEG-based implementation. It does not copy Picdiet's website interface or bundled scripts.
+LightJPEG is an independent MozJPEG-based implementation.

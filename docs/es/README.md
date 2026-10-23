@@ -120,8 +120,6 @@ Las pruebas registradas pasaron para las ocho orientaciones EXIF, reducción sin
 
 Se revisaron interfaces de la serie 1.1 en chino, alemán y árabe, incluida una ventana de 940 puntos, ambos modos de vista y estadísticas de la imagen seleccionada. La versión 1.0 también tuvo revisiones en inglés e hindi. No se afirma haber probado visualmente todos los idiomas o configuraciones de Mac.
 
-Una imagen pública de demostración de Picdiet, `photographer.jpg`, pasó de 984.065 bytes a 1920 × 1280 a unos 155 KB con calidad 75, aproximadamente un 84 % menos. Es una única medición, no una reducción garantizada. La foto no se incluye.
-
 ## Cambios
 
 **1.1.1:** elimina el botón de exportación de la vista previa, mantiene el guardado opcional desde los menús y usa el nombre estable `LightJPEG.app`.
@@ -140,4 +138,4 @@ El codificador incluido usa las fuentes sin modificar de [Mozilla MozJPEG v4.1.5
 
 > This software is based in part on the work of the Independent JPEG Group.
 
-LightJPEG es una implementación independiente basada en MozJPEG. No se han copiado la interfaz del sitio Picdiet ni sus scripts empaquetados.
+LightJPEG es una implementación independiente basada en MozJPEG.

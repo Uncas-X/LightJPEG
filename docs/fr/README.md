@@ -120,8 +120,6 @@ Les tests consignés ont réussi pour les huit orientations EXIF, le redimension
 
 Les mises en page de la série 1.1 ont été examinées en chinois, allemand et arabe, y compris à 940 points de largeur, avec les deux modes et les statistiques par image. La version 1.0 avait aussi été examinée en anglais et en hindi. Cela ne signifie pas que toutes les langues et configurations matérielles ont été testées visuellement.
 
-Sur une seule image de démonstration publique de Picdiet, `photographer.jpg`, la taille est passée de 984 065 octets, à 1920 × 1280, à environ 155 Ko avec une qualité de 75, soit environ 84 % de moins. Ce résultat n’est pas garanti pour d’autres images ; la photo n’est pas fournie.
-
 ## Historique
 
 **1.1.1 :** retrait du bouton d’export de l’aperçu ; export facultatif conservé dans les menus ; nom d’application stable `LightJPEG.app`.
@@ -140,4 +138,4 @@ L’encodeur est issu des sources non modifiées de [Mozilla MozJPEG v4.1.5](htt
 
 > This software is based in part on the work of the Independent JPEG Group.
 
-LightJPEG est une réalisation indépendante fondée sur MozJPEG. Ni l’interface du site Picdiet ni ses scripts empaquetés n’ont été copiés.
+LightJPEG est une réalisation indépendante fondée sur MozJPEG.
