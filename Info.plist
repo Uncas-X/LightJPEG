@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleName</key><string>LightJPEG</string>
+<key>CFBundleDisplayName</key><string>LightJPEG</string>
+<key>CFBundleIdentifier</key><string>local.lightjpeg.desktop</string>
+<key>CFBundleVersion</key><string>3</string>
+<key>CFBundleShortVersionString</key><string>1.1.1</string>
+<key>CFBundleExecutable</key><string>LightJPEG</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleDevelopmentRegion</key><string>en</string>
+<key>CFBundleLocalizations</key><array>
+<string>zh-Hans</string><string>en</string><string>zh-Hant</string><string>ja</string>
+<string>ko</string><string>fr</string><string>de</string><string>es</string>
+<string>it</string><string>pt-BR</string><string>ru</string><string>ar</string>
+<string>hi</string><string>tr</string><string>nl</string><string>pl</string>
+</array>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSSupportsAutomaticGraphicsSwitching</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>CFBundleDocumentTypes</key><array><dict>
+<key>CFBundleTypeName</key><string>Images</string>
+<key>CFBundleTypeRole</key><string>Viewer</string>
+<key>LSHandlerRank</key><string>Alternate</string>
+<key>LSItemContentTypes</key><array>
+<string>public.jpeg</string><string>public.png</string><string>public.heic</string>
+<string>public.heif</string><string>public.tiff</string><string>org.webmproject.webp</string><string>com.microsoft.bmp</string>
+</array></dict></array>
+</dict></plist>

@@ -1,0 +1,28 @@
+LightJPEG includes MozJPEG 4.1.5 (Mozilla JPEG Encoder Project).
+https://github.com/mozilla/mozjpeg/tree/v4.1.5
+
+This software is based in part on the work of the Independent JPEG Group.
+
+The bundled cjpeg executable is built from the unmodified official v4.1.5
+source release, with the JPEG library linked statically. SIMD, libpng support,
+the TurboJPEG API and shared-library builds are disabled. Image decoding and
+colour conversion are performed by Apple's system ImageIO and CoreGraphics.
+No Homebrew or other third-party dynamic libraries are needed at runtime.
+
+The relevant copyright notices, licence terms and disclaimers are reproduced
+in MozJPEG-LICENSE.md and MozJPEG-README.ijg in this directory. The complete
+unmodified upstream source, including file-level copyright notices, accompanies
+the LightJPEG source distribution in vendor/mozjpeg-4.1.5.
+
+Verified source provenance:
+  Repository: https://github.com/mozilla/mozjpeg
+  Tag: v4.1.5
+  Annotated tag object: 38f37cf900958c1004c2eea945a773764ba20716
+  Commit: 6c9f0897afa1c2738d7222a0a9ab49e8b536a267
+  Archive: https://codeload.github.com/mozilla/mozjpeg/tar.gz/refs/tags/v4.1.5
+  Archive SHA-256:
+    9fcbb7171f6ac383f5b391175d6fb3acde5e64c4c4727274eade84ed0998fcc1
+
+Rebuild the universal macOS 13+ encoder with ./build-engine.sh.
+Build dependencies are Apple Xcode Command Line Tools and CMake.
+When the included archive is present, rebuilding requires no network access.
